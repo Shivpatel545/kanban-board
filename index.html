@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Team Task Management Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Team Task Management Board</h1>
+  <input type="text" id="search" placeholder="Search tasks..." />
+</header>
+
+<main>
+ 
+  <section class="task-form">
+    <input type="text" id="title" placeholder="Task Title" />
+    <textarea id="description" placeholder="Task Description"></textarea>
+
+    <select id="priority">
+      <option value="Low">Low Priority</option>
+      <option value="Medium">Medium Priority</option>
+      <option value="High">High Priority</option>
+    </select>
+
+    <button class="add-task-btn">Add Task</button>
+  </section>
+
+  
+  <section class="board">
+
+    <section class="column" data-status="todo">
+      <h2>To Do</h2>
+      <div class="task-list" id="todo"></div>
+    </section>
+
+    <section class="column" data-status="in-progress">
+      <h2>In Progress</h2>
+      <div class="task-list" id="in-progress"></div>
+    </section>
+
+    <section class="column" data-status="done">
+      <h2>Done</h2>
+      <div class="task-list" id="done"></div>
+    </section>
+
+  </section>
+
+    
+  </article>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
