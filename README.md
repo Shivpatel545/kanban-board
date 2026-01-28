@@ -22,3 +22,5 @@ A Kanban-style task management board built using HTML, CSS, and Vanilla JavaScri
 ## Author
 Shiv Patel
 Manan Patel
+Ansh Patel
+
